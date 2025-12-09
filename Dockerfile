@@ -4,6 +4,6 @@ WORKDIR /ci_test
 
 COPY test.py .
 
-CMD ["python3", "test.py"]
+CMD ["python3", "app.py"]
 
 
